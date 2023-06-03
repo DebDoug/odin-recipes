@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    background: linear-gradient(rgb(216, 216, 216), green, 60%, rgb(216, 216, 216) 100%);
+    background-size: cover;
+}
+nav{
+    text-decoration: none;
+}
+
+nav ul{
+   display: flex;
+   justify-content: start;
+   list-style-type: none;
+}
+
+nav li a{
+    margin: .5rem 3rem 0rem;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+li a:hover{
+    color: blue;
+}
+
+img{
+    display: flex;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+} 
